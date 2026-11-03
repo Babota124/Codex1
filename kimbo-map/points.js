@@ -1,4 +1,4 @@
-// Присутствие Kimbo и адреса предоставлены пользователем. Координаты зданий пока не проверены.
+// Адреса, присутствие Kimbo и ссылки на карточки Яндекс предоставлены пользователем. Координаты не выведены из URL.
 window.KIMBO_POINTS = [
   {
     "id": "smoker",
@@ -26,20 +26,24 @@ window.KIMBO_POINTS = [
   },
   {
     "id": "office",
-    "name": "Офис организации",
-    "category": "Офис",
+    "name": "Газ-Вода",
+    "category": "Организация / офис",
     "address": "Карачаево-Черкесия, аул Псыж, ул. Шоссейная, 27А",
     "lat": null,
     "lng": null,
     "demo": false,
     "photos": [],
-    "comment": "Кофе Kimbo в организации."
+    "comment": "Кофе Kimbo в организации.",
+    "yandexUrl": "https://yandex.ru/maps/org/gaz_voda/226724851968"
   },
   {
     "id": "madu",
     "yandexUrl": "https://yandex.ru/maps/org/madu/229945559929",
-    "candidateCoordinates": {"lat": 44.218198, "lng": 42.017297},
-    "name": "Супермаркет + кофейня Madu",
+    "candidateCoordinates": {
+      "lat": 44.218198,
+      "lng": 42.017297
+    },
+    "name": "Madu",
     "category": "Супермаркет + кофейня",
     "address": "Карачаево-Черкесия, аул Псыж, ул. Победы, 4Б/1",
     "lat": null,
