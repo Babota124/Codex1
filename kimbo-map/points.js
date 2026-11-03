@@ -37,6 +37,7 @@ window.KIMBO_POINTS = [
   },
   {
     "id": "madu",
+    "yandexUrl": "https://yandex.ru/maps/org/madu/229945559929",
     "candidateCoordinates": {"lat": 44.218198, "lng": 42.017297},
     "name": "Супермаркет + кофейня Madu",
     "category": "Супермаркет + кофейня",
