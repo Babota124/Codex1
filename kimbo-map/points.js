@@ -14,6 +14,7 @@ window.KIMBO_POINTS = [
   },
   {
     "id": "kunzhut",
+    "yandexUrl": "https://yandex.ru/maps/-/CXrZaBK-",
     "name": "Магазин «Кунжут»",
     "category": "Магазин",
     "address": "Карачаево-Черкесия, аул Псыж, ул. Шоссейная, 53А",
