@@ -2,6 +2,7 @@
 window.KIMBO_POINTS = [
   {
     "id": "smoker",
+    "yandexUrl": "https://yandex.ru/maps/-/CXrZYMKu",
     "name": "Кафе Smoker",
     "category": "Кафе",
     "address": "Карачаево-Черкесия, аул Псыж, ул. Шоссейная, 63А",
