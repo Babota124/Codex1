@@ -35,6 +35,7 @@ window.KIMBO_POINTS = [
   },
   {
     "id": "madu",
+    "candidateCoordinates": {"lat": 44.218198, "lng": 42.017297},
     "name": "Супермаркет + кофейня Madu",
     "category": "Супермаркет + кофейня",
     "address": "Карачаево-Черкесия, аул Псыж, ул. Победы, 4Б/1",
