@@ -2,11 +2,11 @@
    Георезультаты остаются в оперативной памяти, не сохраняются в GitHub. */
 'use strict';
 (function(){
-const normalize=s=>String(s||'').toLowerCase().replace(/ё/g,'е').replace(/[«»"'.,]/g,' ').replace(/\\s+/g,' ').trim();
-const compact=s=>normalize(s).replace(/\\s/g,'').replace(/[^а-яa-z0-9/]/g,'');
+const normalize=s=>String(s||'').toLowerCase().replace(/ё/g,'е').replace(/[«»"'.,]/g,' ').replace(/\s+/g,' ').trim();
+const compact=s=>normalize(s).replace(/\s/g,'').replace(/[^а-яa-z0-9/]/g,'');
 const aliases={smoker:['smoker','смокер'],kunzhut:['кунжут','kunzhut'],madu:['madu','маду']};
 function addressBits(s){
- const m=s.match(/(?:ул\\.?|улица)\\s*([^,]+),\\s*([^,]+)$/i);
+ const m=s.match(/(?:ул\.?|улица)\s*([^,]+),\s*([^,]+)$/i);
  return m?{street:compact(m[1]),house:compact(m[2]).replace(/a/g,'а').replace(/b/g,'б')}:null;
 }
 function yandexText(obj){
