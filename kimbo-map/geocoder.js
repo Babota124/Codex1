@@ -27,21 +27,24 @@ function classifyOrg(p,obj){
  const label=yandexText(obj),variants=aliases[p.id]||[normalize(p.name)];
  if(!variants.some(v=>label.includes(v)))return null;
  const bits=addressBits(p.address);
- const correctHouse=bits&&label.includes(bits.house)&&label.includes('шоссейн')||bits&&label.includes(bits.house)&&label.includes('побед');
- const correctPlace=label.includes('псыж')||correctHouse;
- return {xy,label,score:(correctPlace?4:0)+(correctHouse?3:0)+(label.includes('псыж')?2:0)};
+ const streetMatch=bits && (label.includes('шоссейн') || label.includes('побед'));
+ const houseMatch=bits && (label.includes('63а')||label.includes('53а')||label.includes('27а')||label.includes('4б/1'));
+ const addressMatch=!!(streetMatch&&houseMatch);
+ // Координаты уже находятся в пределах Псыжа; название и расстояние важнее текста адреса.
+ // Отсутствие слова «Псыж» в кратком описании организации не является причиной отказа.
+ return {xy,label,score:10+(addressMatch?5:0)+(label.includes('псыж')?2:0)};
 }
 async function searchOrganizations(p){
  if(!aliases[p.id])return null;
- const short=(aliases[p.id][0]==='kunzhut'?'Кунжут':aliases[p.id][0]==='smoker'?'Smoker':'Madu');
- const queries=[short+' Псыж',short+' Шоссейная Псыж',short+' Карачаево-Черкесия'];
- if(p.id==='madu')queries[1]='Madu Победы Псыж';
+ const short=(p.id==='kunzhut'?'Кунжут':p.id==='smoker'?'Smoker':'Madu');
+ const queries=[short+' Псыж',short+' Карачаево-Черкесия'];
+ if(p.id==='madu')queries.push('Маду Победы Псыж');
  for(const q of queries){
   const found=await KimboMap.searchPlaces(q);
   const matches=found.map(o=>classifyOrg(p,o)).filter(Boolean).sort((a,b)=>b.score-a.score);
   if(!matches.length)continue;
   const best=matches[0],second=matches[1];
-  if(best.score>=6&&(!second||best.score>second.score||best.xy.join(',')===second.xy.join(',')))return {xy:best.xy,method:'Яндекс: поиск организации по названию',label:best.label};
+  if(best.score>=10&&(!second||best.score>second.score||best.xy.join(',')===second.xy.join(',')))return {xy:best.xy,method:'Яндекс: поиск организации по названию',label:best.label};
   // Не угадываем точку, если карточка не содержит адреса или есть несколько равных кандидатов.
  }
  return null;
