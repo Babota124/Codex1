@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "published": false,
+  "items": [
+    {
+      "id": "brew-gyro",
+      "inputNumber": 1,
+      "name": "Брю и Гиро",
+      "city": "Черкесск",
+      "aliases": [
+        "Брю и Гиро",
+        "Брю Гиро"
+      ],
+      "addressHints": [
+        "улица Свободы"
+      ],
+      "chain": false,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Брю и Гиро Черкесск",
+        "Брю Гиро Черкесск",
+        "Брю и Гиро Черкесск улица Свободы"
+      ]
+    },
+    {
+      "id": "for-chef",
+      "inputNumber": 2,
+      "name": "For Chef",
+      "city": "Черкесск",
+      "aliases": [
+        "For Chef",
+        "For Chief",
+        "Форшеф"
+      ],
+      "addressHints": [
+        "улица Октябрьская, 5"
+      ],
+      "chain": false,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "For Chef Черкесск",
+        "For Chief Черкесск",
+        "Форшеф Черкесск",
+        "For Chef Черкесск улица Октябрьская, 5"
+      ]
+    },
+    {
+      "id": "kofevar",
+      "inputNumber": 3,
+      "name": "Кофевар",
+      "city": "Черкесск",
+      "aliases": [
+        "Кофевар"
+      ],
+      "addressHints": [
+        "Кавказская Балахонова"
+      ],
+      "chain": false,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Кофевар Черкесск",
+        "Кофевар Черкесск Кавказская Балахонова"
+      ]
+    },
+    {
+      "id": "coffeine",
+      "inputNumber": 4,
+      "name": "Coffeine",
+      "city": "Черкесск",
+      "aliases": [
+        "Coffeine",
+        "Кофеин"
+      ],
+      "addressHints": [
+        "площадь Кирова, 9"
+      ],
+      "chain": false,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Coffeine Черкесск",
+        "Кофеин Черкесск",
+        "Coffeine Черкесск площадь Кирова, 9"
+      ]
+    },
+    {
+      "id": "central-park",
+      "inputNumber": 5,
+      "name": "Central Park Coffee",
+      "city": "Черкесск",
+      "aliases": [
+        "Central Park Coffee"
+      ],
+      "addressHints": [
+        "улица Первомайская, 27"
+      ],
+      "chain": false,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Central Park Coffee Черкесск",
+        "Central Park Coffee Черкесск улица Первомайская, 27"
+      ]
+    },
+    {
+      "id": "dopamine",
+      "inputNumber": 6,
+      "name": "Deer Coffee / Dopamine",
+      "city": "Черкесск",
+      "aliases": [
+        "Deer Coffee",
+        "Dopamine"
+      ],
+      "addressHints": [
+        "улица Кавказская, 28",
+        "улица Красноармейская, 31",
+        "улица Первомайская, 20"
+      ],
+      "chain": true,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Deer Coffee Черкесск",
+        "Dopamine Черкесск",
+        "Deer Coffee Черкесск улица Кавказская, 28",
+        "Deer Coffee Черкесск улица Красноармейская, 31",
+        "Deer Coffee Черкесск улица Первомайская, 20"
+      ]
+    },
+    {
+      "id": "kapsergenov",
+      "inputNumber": 7,
+      "name": "Кондитерский дом Капсергенова",
+      "city": "Черкесск",
+      "aliases": [
+        "Кондитерский дом Капсергенова",
+        "Капсергенова"
+      ],
+      "addressHints": [
+        "проспект Ленина"
+      ],
+      "chain": false,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Кондитерский дом Капсергенова Черкесск",
+        "Капсергенова Черкесск",
+        "Кондитерский дом Капсергенова Черкесск проспект Ленина"
+      ]
+    },
+    {
+      "id": "zavarnoy",
+      "inputNumber": 8,
+      "name": "Заварной",
+      "city": "Черкесск",
+      "aliases": [
+        "Заварной"
+      ],
+      "addressHints": [
+        "проспект Ленина, 50/2",
+        "улица Калантаевского, 2А"
+      ],
+      "chain": true,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Заварной Черкесск",
+        "Заварной Черкесск проспект Ленина, 50/2",
+        "Заварной Черкесск улица Калантаевского, 2А"
+      ]
+    },
+    {
+      "id": "napoli",
+      "inputNumber": 9,
+      "name": "Napoli у Моролива",
+      "city": "Черкесск",
+      "aliases": [
+        "Napoli Coffee",
+        "Наполи Моролива"
+      ],
+      "addressHints": [
+        "улица Первомайская, 35",
+        "проспект Ленина, 71",
+        "улица Доватора, 66А",
+        "улица Умара Алиева, 12",
+        "улица Кооперативная, 17"
+      ],
+      "chain": true,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Napoli Coffee Черкесск",
+        "Наполи Моролива Черкесск",
+        "Napoli Coffee Черкесск улица Первомайская, 35",
+        "Napoli Coffee Черкесск проспект Ленина, 71",
+        "Napoli Coffee Черкесск улица Доватора, 66А",
+        "Napoli Coffee Черкесск улица Умара Алиева, 12",
+        "Napoli Coffee Черкесск улица Кооперативная, 17"
+      ]
+    },
+    {
+      "id": "1909",
+      "inputNumber": 10,
+      "name": "1909",
+      "city": "Черкесск",
+      "aliases": [
+        "1909"
+      ],
+      "addressHints": [
+        "улица Кавказская"
+      ],
+      "chain": false,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "1909 Черкесск",
+        "1909 Черкесск улица Кавказская"
+      ]
+    },
+    {
+      "id": "filarolls",
+      "inputNumber": 11,
+      "name": "Филароллс",
+      "city": "Черкесск",
+      "aliases": [
+        "Филароллс",
+        "Фила Роллс"
+      ],
+      "addressHints": [
+        "проспект Ленина, 1"
+      ],
+      "chain": false,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Филароллс Черкесск",
+        "Фила Роллс Черкесск",
+        "Филароллс Черкесск проспект Ленина, 1"
+      ]
+    },
+    {
+      "id": "attika",
+      "inputNumber": 12,
+      "name": "Coffee Bar Attika",
+      "city": "Черкесск",
+      "aliases": [
+        "Coffee Bar Attika",
+        "Аттика"
+      ],
+      "addressHints": [
+        "проспект Ленина, 387Ж"
+      ],
+      "chain": false,
+      "kimboConfirmation": "reported_for_input_name_not_for_each_branch",
+      "status": "needs_live_source_check",
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "queries": [
+        "Coffee Bar Attika Черкесск",
+        "Аттика Черкесск",
+        "Coffee Bar Attika Черкесск проспект Ленина, 387Ж"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "published": false,
+  "items": [
+    {
+      "id": "for-chef",
+      "name": "For Chef («Форшеф»)",
+      "address": "Черкесск, улица Октябрьская, 5",
+      "yandexUrl": "https://yandex.com/maps/org/for_chief/70408309891/",
+      "lat": null,
+      "lng": null,
+      "identityStatus": "specific_card_in_user_supplied_repository_file",
+      "checkedLive": false,
+      "readyForMap": false,
+      "kimboConfirmedForSpecificBranch": false,
+      "coordinateProvenance": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Ссылка и адрес перенесены из существующего списка, не найдены повторно. Для нанесения нужны разрешённые координаты и подтверждение конкретного филиала."
+    }
+  ]
+}

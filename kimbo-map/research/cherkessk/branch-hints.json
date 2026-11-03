@@ -1,0 +1,142 @@
+{
+  "published": false,
+  "items": [
+    {
+      "id": "dopamine-hint-1",
+      "groupId": "dopamine",
+      "name": "Deer Coffee / Dopamine",
+      "addressHint": "Черкесск, улица Кавказская, 28",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Адресная зацепка из исходного файла, не новая подтверждённая организация."
+    },
+    {
+      "id": "dopamine-hint-2",
+      "groupId": "dopamine",
+      "name": "Deer Coffee / Dopamine",
+      "addressHint": "Черкесск, улица Красноармейская, 31",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Адресная зацепка из исходного файла, не новая подтверждённая организация."
+    },
+    {
+      "id": "dopamine-hint-3",
+      "groupId": "dopamine",
+      "name": "Deer Coffee / Dopamine",
+      "addressHint": "Черкесск, улица Первомайская, 20",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Адресная зацепка из исходного файла, не новая подтверждённая организация."
+    },
+    {
+      "id": "zavarnoy-hint-1",
+      "groupId": "zavarnoy",
+      "name": "Заварной",
+      "addressHint": "Черкесск, проспект Ленина, 50/2",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Адресная зацепка из исходного файла, не новая подтверждённая организация."
+    },
+    {
+      "id": "zavarnoy-hint-2",
+      "groupId": "zavarnoy",
+      "name": "Заварной",
+      "addressHint": "Черкесск, улица Калантаевского, 2А",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Калантаевского 2А может быть цехом, не кофейней."
+    },
+    {
+      "id": "napoli-hint-1",
+      "groupId": "napoli",
+      "name": "Napoli у Моролива",
+      "addressHint": "Черкесск, улица Первомайская, 35",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Адресная зацепка из исходного файла, не новая подтверждённая организация."
+    },
+    {
+      "id": "napoli-hint-2",
+      "groupId": "napoli",
+      "name": "Napoli у Моролива",
+      "addressHint": "Черкесск, проспект Ленина, 71",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Адресная зацепка из исходного файла, не новая подтверждённая организация."
+    },
+    {
+      "id": "napoli-hint-3",
+      "groupId": "napoli",
+      "name": "Napoli у Моролива",
+      "addressHint": "Черкесск, улица Доватора, 66А",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Адресная зацепка из исходного файла, не новая подтверждённая организация."
+    },
+    {
+      "id": "napoli-hint-4",
+      "groupId": "napoli",
+      "name": "Napoli у Моролива",
+      "addressHint": "Черкесск, улица Умара Алиева, 12",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Адресная зацепка из исходного файла, не новая подтверждённая организация."
+    },
+    {
+      "id": "napoli-hint-5",
+      "groupId": "napoli",
+      "name": "Napoli у Моролива",
+      "addressHint": "Черкесск, улица Кооперативная, 17",
+      "status": "unverified_branch_hint",
+      "kimboConfirmed": false,
+      "yandexUrl": null,
+      "lat": null,
+      "lng": null,
+      "source": "../../CHERKESSK-CANDIDATES.md",
+      "note": "Адресная зацепка из исходного файла, не новая подтверждённая организация."
+    }
+  ],
+  "excludedOutsideCity": [
+    {
+      "groupId": "napoli",
+      "addressHint": "Псыж, Шоссейная, 79А",
+      "reason": "Не Черкесск; не добавляется в эту партию."
+    }
+  ]
+}
