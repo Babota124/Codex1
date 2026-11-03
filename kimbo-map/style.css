@@ -3,3 +3,5 @@
 .pin[data-category="Офис"]{background:#54605b}.pin[data-category="Супермаркет + кофейня"]{background:#945136}
 
 .geocode-box{padding:14px 0;border-bottom:1px solid var(--line)}.geocode-box button{font-size:13px;width:100%}@media print{.geocode-box{display:none}}
+
+#map{touch-action:auto}#yandex-map{position:absolute;inset:0}#map-status{bottom:auto;top:12px;left:55px;right:55px;z-index:2;pointer-events:none}.map-home{position:absolute;bottom:45px;left:12px;z-index:2}#card{z-index:3;bottom:75px}#api-key{margin:8px 0}.geocode-box button{margin:4px 0}#map-status:empty{display:none}@media print{.map-home{display:none}}
