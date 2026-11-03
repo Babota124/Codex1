@@ -1,7 +1,47 @@
-// Данные загружаются и при открытии index.html двойным щелчком.
+// Присутствие Kimbo и адреса предоставлены пользователем. Координаты зданий пока не проверены.
 window.KIMBO_POINTS = [
- {id:'demo-1',name:'Демо · Кофейня',category:'Кофейня',address:'Черкесск · условное расположение №1',lat:44.2236,lng:42.0578,demo:true,photos:[],comment:'Вымышленная точка для проверки интерфейса.'},
- {id:'demo-2',name:'Демо · Кафе',category:'Кафе',address:'Черкесск · условное расположение №2',lat:44.2284,lng:42.0519,demo:true,photos:[],comment:''},
- {id:'demo-3',name:'Демо · Магазин',category:'Магазин',address:'Черкесск · условное расположение №3',lat:44.2165,lng:42.0644,demo:true,photos:[],comment:''},
- {id:'demo-4',name:'Демо · Бар',category:'Бар',address:'Черкесск · условное расположение №4',lat:44.2205,lng:42.0447,demo:true,photos:[],comment:''}
+  {
+    "id": "smoker",
+    "name": "Кафе Smoker",
+    "category": "Кафе",
+    "address": "Карачаево-Черкесия, аул Псыж, ул. Шоссейная, 63А",
+    "lat": null,
+    "lng": null,
+    "demo": false,
+    "photos": [],
+    "comment": "Кофе Kimbo используется на баре."
+  },
+  {
+    "id": "kunzhut",
+    "name": "Магазин «Кунжут»",
+    "category": "Магазин",
+    "address": "Карачаево-Черкесия, аул Псыж, ул. Шоссейная, 53А",
+    "lat": null,
+    "lng": null,
+    "demo": false,
+    "photos": [],
+    "comment": "Кофейная стойка с Kimbo, несколько пачек кофе на торговой полке."
+  },
+  {
+    "id": "office",
+    "name": "Офис организации",
+    "category": "Офис",
+    "address": "Карачаево-Черкесия, аул Псыж, ул. Шоссейная, 27А",
+    "lat": null,
+    "lng": null,
+    "demo": false,
+    "photos": [],
+    "comment": "Кофе Kimbo в организации."
+  },
+  {
+    "id": "madu",
+    "name": "Супермаркет + кофейня Madu",
+    "category": "Супермаркет + кофейня",
+    "address": "Карачаево-Черкесия, аул Псыж, ул. Победы, 4Б/1",
+    "lat": null,
+    "lng": null,
+    "demo": false,
+    "photos": [],
+    "comment": "Kimbo на полках супермаркета и на баре кофейни."
+  }
 ];
